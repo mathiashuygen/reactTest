@@ -22,7 +22,7 @@ function Login() {
           ></input>
         </div>
 
-        <button className="button">Let's Surf</button>
+        <button className="button">Let's Surff</button>
       </div>
       <p className="text">or</p>
       <div className="thirdPartyLogin">
