@@ -1,8 +1,20 @@
-.backgroundContainer{
-	background-color: purple;
+.appDiv {
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(to bottom, rgb(11, 49, 77), rgb(111, 191, 202));
+  background-color: purple;
 }
 
-body{
-	background-color: purple;
-	margin: 2rem;
+.navBarSimul {
+  border: 1px solid red;
+  height: 4vh;
+  margin-bottom: 2rem;
 }
+
+.logInPanel {
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+

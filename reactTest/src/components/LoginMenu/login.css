@@ -1,17 +1,46 @@
 .loginPanel{
-	display: column;
-	text-allign: center;
-	background-color: purple;
-    background: linear-gradient(to bottom, rgb(11, 49, 77), rgb(111, 191, 202));
-	height: 20rem;
-	max-width: 40rem;
+  dispay: flex;
+  text-align: center;
+	background-color: rgba(41, 41, 41, 0.5);
+  height: 75rem;
+	max-width: 65rem;
+  min-width: 65rem;
 	border-radius:1.5rem;
 }
 
 
 
-.form-control{
-	height: 2rem;
-	width: 70%:
-	/*width will not work??????*/
+.text{
+  font-size: 300%;
+  color: white;
+}
+
+.formControl{
+  opacity: 1;
+	height: 5rem;
+  margin-bottom: 3rem;
+	width: 80%;
+  border-radius: 2rem; 
+  background-color: white;
+}
+
+.surfAccountLogin{
+  opacity: 1;
+}
+
+
+.thirdPartyLogin{
+  margin-top: 6rem;
+ // border: 2px solid red;
+
+}
+
+
+.button{
+  width: 80%;
+  height: 5rem;
+  border-radius: 2rem;
+  font-size: 300%;
+  color: rgb(5, 5, 5);
+  opacity: 0.70;
 }
