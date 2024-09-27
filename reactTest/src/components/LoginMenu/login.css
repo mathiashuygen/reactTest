@@ -2,7 +2,7 @@
 	display: column;
 	text-allign: center;
 	background-color: purple;
-	background: linear-gradient(to right, )
+    background: linear-gradient(to bottom, rgb(11, 49, 77), rgb(111, 191, 202));
 	height: 20rem;
 	max-width: 40rem;
 	border-radius:1.5rem;
