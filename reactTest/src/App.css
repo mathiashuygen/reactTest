@@ -1,1 +1,8 @@
+.backgroundContainer{
+	background-color: purple;
+}
 
+body{
+	background-color: purple;
+	margin: 2rem;
+}

@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import './Message.css';
 const colors = [
 	{title: 'blue', id: '#7CB9E8'},
 	{title: 'indigo', id: '#4B0082'},
@@ -16,7 +16,7 @@ function Message() {
 			setColor(newColorCount);
 		}
 		return (
-			<button style={{backgroundColor: colors[colorCount].id, padding: "10px 20px", color: "#000"}} onClick={handleClick}> Click me uwu</button>
+			<button className = 'stylerButton' style={{backgroundColor: colors[colorCount].id, padding: "10px 20px", color: "#000"}} onClick={handleClick}> Click me uwu</button>
 		);
 	}
 

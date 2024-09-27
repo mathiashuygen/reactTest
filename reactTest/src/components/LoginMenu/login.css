@@ -1,0 +1,17 @@
+.loginPanel{
+	display: column;
+	text-allign: center;
+	background-color: purple;
+	background: linear-gradient(to right, )
+	height: 20rem;
+	max-width: 40rem;
+	border-radius:1.5rem;
+}
+
+
+
+.form-control{
+	height: 2rem;
+	width: 70%:
+	/*width will not work??????*/
+}
