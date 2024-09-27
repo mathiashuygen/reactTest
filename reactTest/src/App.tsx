@@ -5,7 +5,8 @@ import ListGroup from './components/Listgroup';
 
 function App(){
 	const name = 'Mathias';
-	return <div> <ListGroup/> </div>;
+	return ( <div> <div> <ListGroup/> </div><div><Message/> </div> </div>			
+);
 
 }
 
