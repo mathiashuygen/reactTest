@@ -4,8 +4,9 @@
   text-align: center;
   background-color: rgba(41, 41, 41, 0.5);
   height: 75rem;
-  max-width: 65rem;
-  min-width: 65rem;
+  max-width: 45rem;
+  min-width: 45rem;
+	max-height: 90vh;
   border-radius: 1.5rem;
 }
 
