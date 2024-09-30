@@ -4,8 +4,8 @@
   text-align: center;
   background-color: rgba(41, 41, 41, 0.5);
   height: 75rem;
-  max-width: 45rem;
-  min-width: 45rem;
+  max-width: 40rem;
+  min-width: 40rem;
 	max-height: 90vh;
   border-radius: 1.5rem;
 }
@@ -17,21 +17,23 @@
 
 .formControl {
   opacity: 1;
-  height: 5rem;
+  height: 4rem;
   margin-bottom: 3rem;
   width: 80%;
   border-radius: 2rem;
   background-color: white;
+	color: black;
 }
 
 .surfAccountLogin {
   opacity: 1;
   //border: 2px solid white;
   margin-top: 3rem;
+	margin-bottom: 4rem;
 }
 
 .thirdPartyLogin {
-  margin-top: 6rem;
+  margin-top: 4rem;
 
   //border: 2px solid red;
 }
@@ -39,8 +41,17 @@
 .button {
   font-family: 'Kaushan Script';
   width: 80%;
-  height: 5rem;
+  height: 4rem;
   border-radius: 2rem;
-  font-size: 300%;
+  font-size: 220%;
   background-color: rgba(5, 5, 5, 0.7);
+	margin-bottom: 0rem;
+}
+.thirdPartyButton {
+  width: 80%;
+  height: 4rem;
+  border-radius: 2rem;
+  font-size: 220%;
+  background-color: rgba(5, 5, 5, 0.7);
+	margin-bottom: 2rem;
 }

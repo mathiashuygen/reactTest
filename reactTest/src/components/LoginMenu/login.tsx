@@ -27,22 +27,16 @@ function Login() {
       <p className="text">or</p>
       <div className="thirdPartyLogin">
         <div className="mb">
-          <input
-            type="password"
-            className="formControl"
-            id="googleLogIn"
-            placeholder="password"
-          ></input>
+        <button className = "thirdPartyButton">Google</button> 
         </div>
         <div className="mb">
-          <input
-            type="password"
-            className="formControl"
-            id="facebookLogIN"
-            placeholder="password"
-          ></input>
-        </div>
+        	<button className = "thirdPartyButton">facebook</button>  
+	</div>
+	 <div className="mb">
+        <button className = "thirdPartyButton">apple</button>  
+	</div>
       </div>
+
     </div>
   );
 }
